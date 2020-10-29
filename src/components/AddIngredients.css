@@ -1,0 +1,47 @@
+.form {
+    width: 100%;
+}
+
+.form__input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #565660;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.form__label {
+    font-size: 2rem;
+}
+
+.form__input:focus {
+    outline: none;
+    border-bottom: 1px solid #ff2058;
+}
+
+.button {
+    background-color: #ff2058;
+    padding: 1.6rem 4rem;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button:focus {
+    border: none;
+    outline: none;
+}
+
+.form__submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
